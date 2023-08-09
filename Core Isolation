@@ -1,0 +1,7 @@
+Core Isolation - Error Drivers
+in PowerShell with Administrator level
+
+dism /online /get-drivers /format:table​
+
+pnputil /delete-driver /uninstall /force
+
